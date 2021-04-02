@@ -28,3 +28,17 @@ hasil seperti berikut sesuai dengan status dari region tersebut:
 
 ### Sebagai Admin
 Ketika link menuju admin dibuka (/admin), akan terlihat sebagai berikut:
+![](blob/adminFirstOpened.jpg)
+
+Dari sini, pilih provinsi dimana terdapat region yang ingin diubah statusnya:
+![](blob/adminPilihProvinsi.jpg)
+
+Selanjutnya, akan muncul list kota dari provinsi tersebut serta status tiap kota tersebut:
+![](blob/adminListKota.jpg)
+
+Pada kota yang ingin diubah statusnya, pilihkan opsi perubahan pada dropdown:
+![](blob/adminPilihPerubahanStatus.jpg)
+
+Setelah diubah, maka kota yang diubah akan berubah statusnya pada halaman serta pada database. Halaman akan menjadi sebagai berikut: 
+![](blob/adminUbahStatus.jpg)
+
