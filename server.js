@@ -56,7 +56,6 @@ app.put("/ubah-status", (req, res) => {
         dbo.collection("statusLokasi").updateOne(myquery, newvalues, (err, res) => {
             if (err) throw err;
             console.log("Statsus sudah diubah")
-            db.close()
         })
     })
     res.send("gg")

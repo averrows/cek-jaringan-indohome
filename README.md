@@ -10,6 +10,7 @@ Harap bersabar bila loading lama karena layanan hosting gratis
 Website terdiri dari dua buah arah. Website yang ditujukan untuk klien terdapat di '/' dan langsung terbuka ketika link diklik. Website yang ditujukan kepada administrator
 terdapat di '/admin', terdapat link pula ke halaman administrator dari halaman client dan sebaliknya.
 
+### Sebagai Klien
 Ketika link dibuka, akan terlihat sebagai berikut:
 ![Halaman Awal Client](blob/clientFirstOpened.jpg)
 
@@ -25,4 +26,5 @@ Selanjutnya klik tombol cek status dan tunggu hasil. Bisa jadi agak lama karena 
 hasil seperti berikut sesuai dengan status dari region tersebut:
 ![](blob/clientHasil.jpg)
 
-
+### Sebagai Admin
+Ketika link menuju admin dibuka (/admin), akan terlihat sebagai berikut:
