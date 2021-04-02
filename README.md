@@ -54,11 +54,13 @@ git clone https://github.com/averus9/cek-jaringan-indohome cek-jaringan-indohome
 cd cek-jaringan-indohome
 ```
 ### Install node package
-'''
+```
 npm install
-'''
+```
 ### Jalankan server
+```
 npm start
+```
 ### Buka halaman
 Buka halaman di http://localhost:3000/
 
