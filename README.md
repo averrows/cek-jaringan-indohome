@@ -42,3 +42,33 @@ Pada kota yang ingin diubah statusnya, pilihkan opsi perubahan pada dropdown:
 Setelah diubah, maka kota yang diubah akan berubah statusnya pada halaman serta pada database. Halaman akan menjadi sebagai berikut: 
 ![](blob/adminUbahStatus.jpg)
 
+## Cara Instalasi Server
+Jika heroku bermasalah, website dapat dijalankan di localhost:3000 dengan langkah-langkah berikut:
+
+### Hal mendasar yang harus ada
+- Node.JS
+- Git
+### Klon repositori
+```
+git clone https://github.com/averus9/cek-jaringan-indohome cek-jaringan-indohome
+cd cek-jaringan-indohome
+```
+### Install node package
+'''
+npm install
+'''
+### Jalankan server
+npm start
+### Buka halaman
+Buka halaman di http://localhost:3000/
+
+## Fitur dan Teknologi
+Fitur CRUD yang digunakan adalah Read dan Update.
+### Teknologi yang digunakan
+- Express.JS
+- MongoDB
+
+## Nama dan NIM
+- Averrous Saloom
+- 16520480
+
