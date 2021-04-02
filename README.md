@@ -13,5 +13,16 @@ terdapat di '/admin', terdapat link pula ke halaman administrator dari halaman c
 Ketika link dibuka, akan terlihat sebagai berikut:
 ![Halaman Awal Client](blob/clientFirstOpened.jpg)
 
+Mendapatkan status dari lokasi dapat dilakukan dengan memilih lokasi pada dropdown lalu mengeklik tombol Cek Status:
+
+Pilih Provinsi:
+![](blob/clientPilihProvinsi.jpg)
+
+Pilih kota:
+![](blob/clientPilihKota.jpg)
+
+Selanjutnya klik tombol cek status dan tunggu hasil. Bisa jadi agak lama karena menggunakan layanan gratis MongoDB. Sehingga akan keluar
+hasil seperti berikut sesuai dengan status dari region tersebut:
+![](blob/clientHasil.jpg)
 
 
