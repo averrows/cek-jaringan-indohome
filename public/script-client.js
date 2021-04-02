@@ -69,7 +69,27 @@ async function getStatus(){
         event.preventDefault()
         let hasil = await fetchStatus(provinsiDropDown,kotaDropdown)
         hasil.json().then(res=>{
-            document.getElementById("iku").innerText = res.status
+            document.getElementById("status").innerText = res.status
+            var waktu = ""
+            if(res.status){
+                if(res.status == "Hidup"){
+                    waktu = "Jika merasa ada gangguan, kamu bisa restart ulang router. Jika masih tidak bisa, telepon CS kami"
+                }
+                if(res.status == "Perbaikan Ringan"){
+                    waktu = "Sabar sebentar ya, 1-5 menit lagi nyala kok"
+                }
+                if(res.status == "Perbaikan Berat"){
+                    waktu = "Wah bisa selesai 20-60 menit lagi nih, maafkan yaa, kamu bisa dapat paket bonus tolkemsel lewat kupon: INDOHOMELEBIHBAIK"
+                }
+                if(res.status == "Dinonaktifkan Sementara"){
+                    waktu = "Di daerahmu, jaringan kami dinonaktifkan untuk waktu yang tidak bisa ditentukan"
+                if(res.status == "Mati"){
+                    waktu="Jaringan di daerahmu dimatikan, untuk berhenti dari layanan harap menghubungi cs"
+                }
+            }
+            document.getElementById("waktu").innerText = waktu
+                    
+            }
         })
     })
 }
